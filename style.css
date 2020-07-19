@@ -1,0 +1,356 @@
+*{margin:0;padding: 0;}
+.container_wraper{
+	width:100%;
+}
+.container{
+	width:980px;
+	margin:0 auto;
+	display: block;
+	height: auto;
+	overflow: hidden;
+}
+
+       /*------------------------- Logo Area Design-------------------------- */
+
+.header_wraper{
+	background: #292929;
+
+}
+.header .logo{
+	float: left;
+}
+.header .logo h1{
+	color:#FFFFFF;
+	padding-top:43px;
+	padding-bottom:44px;
+	width: 150px;
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+       /*------------------------- Menu Area Design-------------------------- */
+.header .menu{
+	float: right;
+	width:830px;
+}
+
+.header .menu ul{
+	list-style-type: none;
+    min-height: 122px;
+    margin-left: 20px;
+    float:right;
+}
+
+.header .menu ul li{
+	float: left;
+	border-right: 1px solid #1D1D1D;
+}
+.header .menu ul li:first-child{
+	border-left: 1px solid #1D1D1D;
+}
+.header .menu ul li a{
+	text-decoration: none;
+	display:block;
+	color:#FFFFFF;
+	padding: 55px 38px;
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 16px;
+	border-bottom: 6px solid #1E1E1E;
+	transition: all .5s ease-in;
+}
+.header .menu ul li:hover{
+}
+.header .menu ul li:hover a{
+	border-bottom: 6px solid #58C93A;
+	color:#58C93A;
+}
+
+.header .menu ul .active a{
+	border-bottom: 6px solid #58C93A;
+	color:#58C93A;
+}
+
+
+       /*------------------------- Article Area Design-------------------------- */
+.content_wraper{
+	background: #FFFFFF;
+	border-top: 6px solid #1E1E1E;
+	margin-top: -6px;
+}
+
+.content{
+	background: #FFFFFF;
+	border-left:1px solid #E1E0E0;
+	border-right:1px solid #E1E0E0;
+	border-bottom:1px solid #E1E0E0;
+	overflow: hidden;
+}
+
+.content .left_content{
+	width:620px;
+	float:left;
+	overflow: hidden;
+	margin-right: 59px;
+}
+
+.content .left_content .artcl{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.content .left_content .artcl img{
+	width: 620px;
+	height: 309px;
+}
+.content .left_content .artcl h1{
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 28px;
+	margin-left: 20px;
+	margin-top: 18px;
+	margin-bottom: 56px;
+	text-transform: uppercase;
+	color:#4F4E4E;
+}
+.content .left_content .artcl p{
+	font-family: Lato;
+	font-size: 16px;
+	margin-left: 20px;
+	margin-bottom: 28px;
+	color:#606060;
+
+}
+.content .left_content .artcl a{
+	display: block;
+	background: white;
+	font-family: Lato;
+	font-size: 16px;
+	margin-left: 20px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-right: 25px;
+	padding-left: 25px;
+	color:#C2C2C2;
+	border:1px solid #C2C2C2;
+	border-radius: 25px;
+	text-decoration: none;
+	width:116px;
+}
+
+
+     /*------------------------- Side Bar Area Design-------------------------- */
+
+.content .right_content{
+	width:280px;
+	float:left;
+	margin-left:19px;
+	overflow: hidden;
+}
+
+.content .right_content .asd{
+	margin-top:80px;
+}
+
+.content .right_content .asd h1{
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: bold;
+	color:#6C6969;
+	background: #F8F8F8;
+	border-left:3px solid #58C93A;
+	padding-left: 20px;
+	padding-top: 18px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.content .right_content .asd p{
+	margin-left: 23px;
+	margin-right: 29px;
+	/* padding-left: 23px;
+	padding-right: 29px; */
+	font-family: Lato;
+	font-size: 16px;
+	color:#6C6969;
+	padding-top:20px;
+}
+
+.content .right_content .asd input[type="text"]{
+	margin-top:22px;
+	width:94%;
+	padding-left: 18px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	color:#B9B9B9;
+	border:1px solid #B9B9B9;
+	border-right: none;
+	font-family: Lato;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+.content .right_content .asd .email_submit{
+	position: relative;
+}
+.content .right_content .asd .email_submit input[type="email"]{
+	margin-top:22px;
+	width:94%;
+	padding-left: 18px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	border:1px solid #B9B9B9;
+	border-right: none;
+	font-family: Lato;
+	font-size: 16px;
+	color:#B9B9B9;
+	overflow: hidden;
+}
+
+.content .right_content .asd .email_submit input[type="submit"]{
+	border: 1px solid #B9B9B9;
+    border-right: none;
+    font-family: Lato;
+    font-size: 54px;
+    position: absolute;
+    background: url(img/button.png) no-repeat;
+    height: 24px;
+    width: 24px;
+    top: 97px;
+    right: 13px;
+    text-indent: -999999px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+ /*------------------------- Under Content Area Design-------------------------- */
+.under_content{
+	width:978px;
+	background: #FFFFFF;
+	border-left:1px solid #E1E0E0;
+	border-right:1px solid #E1E0E0;
+	/* border-bottom:1px solid #E1E0E0; */
+	overflow: hidden;
+	padding-top: 29px;
+	padding-bottom: 29px;
+}
+
+.under_content .previous{
+	display: block;
+	float:left;
+	text-decoration: none;
+	margin-left: 27px;
+	text-transform: uppercase;
+	color:#8B8B8B;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.under_content .next{
+	display: block;
+	float:right;
+	text-decoration: none;
+	margin-right: 27px;
+	text-transform: uppercase;
+	color:#8B8B8B;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+
+
+       /*------------------------- Footer Area Design-------------------------- */
+
+
+.ftr_bg{
+	background: #F8F8F8;
+	border-top: 1px solid #E1E0E0;
+}
+.ftr{
+	width:980px;
+	margin:0 auto;
+	padding: 50px 0px;
+	text-align: center;
+}
+
+.ftr h1{
+	margin-bottom: 32px;
+	color:#292929;
+	font-family: Lato;
+	font-size: 40px;
+	font-weight: bold;
+}
+.ftr p{
+	margin-bottom: 40px;
+	font-family: Lato;
+	font-size: 13px;
+	color:#a6a6a6;
+}
+.ftr .social_area{
+	list-style-type: none;
+}
+.ftr .social_area li{
+	display: inline-block;
+}
+
+.ftr .social_area li.facebook a{
+	display: block;
+	text-decoration: none;
+	background: url(img/fb1.png);
+	margin-left:20px;
+	height:40px;
+	width:40px;
+	transition: all 0.5s ease-out;
+}
+
+.ftr .social_area li.facebook a:hover{
+	background: url(img/fb.png);
+}
+
+.ftr .social_area li.twitter a{
+	display: block;
+	text-decoration: none;
+	background: url(img/twitter1.png);
+	margin-left:20px;
+	height:40px;
+	width:40px;
+	transition: all 0.5s ease-out;
+}
+
+.ftr .social_area li.twitter a:hover{
+	background: url(img/twitter.png);
+}
+
+.ftr .social_area li.image3 a{
+	display: block;
+	text-decoration: none;
+	background: url(img/image3.png);
+	margin-left:20px;
+	height:40px;
+	width:40px;
+	transition: all 0.5s ease-out;
+}
+
+.ftr .social_area li.image3 a:hover{
+	background: url(img/image4.png);
+}
+
+.ftr .social_area li.image4 a{
+	display: block;
+	text-decoration: none;
+	background: url(img/image4.png);
+	margin-left:20px;
+	height:40px;
+	width:40px;
+	transition: all 0.5s ease-out;
+}
+
+.ftr .social_area li.image4 a:hover{
+	background: url(img/image3.png);
+}
+
